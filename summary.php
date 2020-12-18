@@ -19,6 +19,8 @@
             Job: <?php echo $_GET["job"]; ?><br>
             Gender: <?php echo $_GET["gender"]; ?><br>
         </div>
+
+        
             <form action="robots.php">
                 <input type="submit" name="submitbutton" value="Back">
             </form>
@@ -28,3 +30,4 @@
             </form>
     </body>
 </html>
+

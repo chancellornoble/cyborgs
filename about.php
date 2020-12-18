@@ -32,9 +32,6 @@
        <li class="nav-item">
          <a class="nav-link" href="robots.php">Robot</a>
        </li>
-       <li class="nav-item">
-         <a class="nav-link" href="other.php">Other</a>
-       </li>
      </ul>
    </div>
  </nav>

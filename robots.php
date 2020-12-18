@@ -36,9 +36,6 @@
        <li class="nav-item">
          <a class="nav-link" href="robots.php">Robot<span class="sr-only">(current)</span></a>
        </li>
-       <li class="nav-item">
-         <a class="nav-link" href="other.php">Other</a>
-       </li>
      </ul>
    </div>
  </nav>
@@ -156,7 +153,7 @@ while($rows = $resultSet->fetch_assoc())
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="https://drive.google.com/file/d/16EVOx2fXpHhT63jm5FQ8f1uH0bh5wavx/view" alt="First slide">
+      <img class="d-block w-100" src="./https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.thenounproject.com%2Fpng%2F406678-200.png&imgrefurl=https%3A%2F%2Fthenounproject.com%2Fterm%2Fcyborg%2F406678%2F&tbnid=w7XX4qoZIkKdDM&vet=12ahUKEwjR5K-H2tftAhVRMlMKHYm_CNUQMygMegUIARCnAg..i&docid=XkDOYW2-8UEN3M&w=200&h=200&itg=1&q=cyborg&hl=en-US&ved=2ahUKEwjR5K-H2tftAhVRMlMKHYm_CNUQMygMegUIARCnAg" alt="First slide">
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="..." alt="Second slide">

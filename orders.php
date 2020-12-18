@@ -1,5 +1,6 @@
 <?php
  include_once 'inc/connection.php';
+ include_once 'robots.php';
 ?>
 
 <!DOCTYPE html>
@@ -29,8 +30,8 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO orders (name, height, color, job, gender)
-VALUES ('', '', '', '', '')";
+$sql = "INSERT INTO orders (orders.name, height, color, job, gender)
+VALUES ('$name', '$height', '$color', '$job', '$gender')";
 
 if ($conn->query($sql) === TRUE) {
   echo "Your Order has been created!";
@@ -39,14 +40,18 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
+
+
+
+
 ?>
 <br>
 <br>
 <br>
+
 <form action="robots.php">
   <button type="submit" name="submitbutton" value="Back to Robots"></button>
 </form>
-
 
 </body>
 </html>
