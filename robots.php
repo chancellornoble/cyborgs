@@ -20,7 +20,7 @@
   <header>
  
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-   <a class="navbar-brand" href="index.php"><img class="logoimg" src="img/transparentlogo.png"></a>
+   <a class="navbar-brand" href="index.php"><img class="logoimg" src="https://imgur.com/gallery/zyyNoqd"></a>
    <!---  <a class="navbar-brand" href="index.php">Shop</a> --->
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
@@ -153,13 +153,12 @@ while($rows = $resultSet->fetch_assoc())
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="./https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.thenounproject.com%2Fpng%2F406678-200.png&imgrefurl=https%3A%2F%2Fthenounproject.com%2Fterm%2Fcyborg%2F406678%2F&tbnid=w7XX4qoZIkKdDM&vet=12ahUKEwjR5K-H2tftAhVRMlMKHYm_CNUQMygMegUIARCnAg..i&docid=XkDOYW2-8UEN3M&w=200&h=200&itg=1&q=cyborg&hl=en-US&ved=2ahUKEwjR5K-H2tftAhVRMlMKHYm_CNUQMygMegUIARCnAg" alt="First slide">
+      <img class="d-block w-100" src="https://imgur.com/XQF5ync" alt="First slide">
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://imgur.com/XQF5ync" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Third slide">
+      <img class="d-block w-100" src="https://imgur.com/XQF5ync" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
