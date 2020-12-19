@@ -20,7 +20,7 @@
   <header>
  
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-   <a class="navbar-brand" href="index.php"><img class="logoimg" src="https://imgur.com/gallery/zyyNoqd"></a>
+   <a class="navbar-brand" href="index.php"><img class="logoimg" src="https://i.imgur.com/epOqn1f.jpeg" height="25px" width="25px"></a>
    <!---  <a class="navbar-brand" href="index.php">Shop</a> --->
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
@@ -34,7 +34,7 @@
          <a class="nav-link" href="about.php">About</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link" href="robots.php">Robot<span class="sr-only">(current)</span></a>
+         <a class="nav-link" href="robots.php">Robots<span class="sr-only">(current)</span></a>
        </li>
      </ul>
    </div>
@@ -43,6 +43,9 @@
 
 <h1>Customize your Cyborg</h1>
     <br>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-6">
     <form action="summary.php" method="get">
 <!-- This code is for the name dropdown menu -->
 <h5>Name:</h5>
@@ -142,33 +145,31 @@ while($rows = $resultSet->fetch_assoc())
 <br>
 <input type="submit" name="submitbutton" value="Click Here To Submit!">
 </form>
-<br>
-<br>
-<br>
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
+		</div>
+		<div class="col-md-6">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="https://imgur.com/XQF5ync" alt="First slide">
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://imgur.com/XQF5ync" alt="Second slide">
+    <img  src="https://i.imgur.com/YXGJITM.jpg" alt="First slide" width="500px" height="500px">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://imgur.com/XQF5ync" alt="Third slide">
+      <img src="https://i.imgur.com/xguqd9G.jpg" alt="Second slide"  width="500px" height="500px">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.imgur.com/AnPYRYd.jpg" alt="Third slide"  width="500px" height="500px">
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+</div>
+		</div>
+	</div>
 </div>
 
 <footer class="footercont">

@@ -16,7 +16,7 @@
   <header>
  
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-   <a class="navbar-brand" href="index.php"><img class="logoimg" src="img/transparentlogo.png"></a>
+   <a class="navbar-brand" href="index.php"><img class="logoimg" src="https://i.imgur.com/epOqn1f.jpeg" height="25px" width="25px"></a>
    <!---  <a class="navbar-brand" href="index.php">Shop</a> --->
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
@@ -30,7 +30,7 @@
          <a class="nav-link" href="about.php">About<span class="sr-only">(current)</span></a>
        </li>
        <li class="nav-item">
-         <a class="nav-link" href="robots.php">Robot</a>
+         <a class="nav-link" href="robots.php">Robots</a>
        </li>
      </ul>
    </div>
