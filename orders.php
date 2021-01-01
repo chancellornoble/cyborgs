@@ -1,6 +1,7 @@
 <?php
  include_once 'inc/connection.php';
- 
+
+ include_once 'robots.php';
 ?>
 
 <!DOCTYPE html>
@@ -31,7 +32,7 @@ if ($conn->connect_error) {
 }
 
 $sql = "INSERT INTO orders (orders.name, height, color, job, gender)
-VALUES ('?', '?', '?', '?', '?')";
+VALUES ('$name', '$height', '$color', '$job', '$gender')";
 
 if ($conn->query($sql) === TRUE) {
   echo "Your Order has been created!";
