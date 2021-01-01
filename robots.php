@@ -178,9 +178,7 @@ while($rows = $resultSet->fetch_assoc())
       <div class="col-md-2 mb-3">
         <h6 class="title font-bold"><a href="about.php" class="foottext">About</a></h6>
       </div>
-      <div class="col-md-2 mb-3">
-        <h6 class="title font-bold"><a href="#toppage" class="foottext">Back to Top</a></h6>
-      </div>
+     
       <div class="col-md-2 mb-3">
         <h6 class="title font-bold"><a href="robots.php" class="foottext">Robots</a></h6>
       </div>

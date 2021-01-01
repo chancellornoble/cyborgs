@@ -38,17 +38,28 @@
 
  </header>
 
-<h1>About </h1>
-
+<h1>About Us</h1>
+  <div>
+    <p>
+    This organization was created for the benefit of others that need assistance around the house or at work. We help you based on YOUR needs and whatever they are, they can range from chores around the house at work. Whatever you need we can do. 
+    </p>
+  </div>
+  <div>
+    <h2>More About Us </h2>
+      <p>
+      Hazem- I am a 16-year-old boy at Madison academic Magnet high school. I play on the Varsity Soccer team at Madison academic. I enjoy soccer greatly and originally got the idea for the Cyborgs from soccer because I needed someone to go get all the balls when I kick them. Then I thought about other people and there need and co-created a Cyborg company to help others. 
+      </p>
+      <p>
+      Chancellor- I am also 16 years old and attend Madison Academic Magnet High School. I play on the baseball team and I am in Beta Club and Leadership University. I was the back-end developer so I worked with the database and getting the tables to work and interact with each other. 
+      </p>
+  </div>
 <footer class="footercont">
   <div class="container">
     <div class="row pt-4 text-center d-flex justify-content-center">
       <div class="col-md-2 mb-3">
         <h6 class="title font-bold"><a href="about.php" class="foottext">About</a></h6>
       </div>
-      <div class="col-md-2 mb-3">
-        <h6 class="title font-bold"><a href="#toppage" class="foottext">Back to Top</a></h6>
-      </div>
+     
       <div class="col-md-2 mb-3">
         <h6 class="title font-bold"><a href="robots.php" class="foottext">Robots</a></h6>
       </div>
@@ -66,7 +77,7 @@
       © 2020
     </div>
   </div>
-
+</footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>

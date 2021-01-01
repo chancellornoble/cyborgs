@@ -42,18 +42,60 @@
 
  </header>
 
-<h1>Home</h1>
+<h1>C&H Cyborgs</h1>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
 
-</table>
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://i.imgur.com/MM34LG6.jpg" alt="First slide" height="500px">
+      <div class="carousel-caption">
+            <h5>Purpose</h5>
+            <small>
+            Do you need help doing the dishes?
+            </small>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://i.imgur.com/axxtgsI.jpeg" alt="Second slide" height="500px">
+      <div class="carousel-caption">
+            <h5>Why do you need a Cyborg?</h5>
+            <small>
+            Are you tired of coming home to a dirty house?
+            </small>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://i.imgur.com/5B7ryRD.jpeg" alt="Third slide" height="500px">
+      <div class="carousel-caption">
+            <h5>Robots</h5>
+            <small>
+            Click on  Robots in the navigation bar to customize your own cyborg!
+            </small>
+        </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
 <footer class="footercont">
   <div class="container">
     <div class="row pt-4 text-center d-flex justify-content-center">
       <div class="col-md-2 mb-3">
         <h6 class="title font-bold"><a href="about.php" class="foottext">About</a></h6>
       </div>
-      <div class="col-md-2 mb-3">
-        <h6 class="title font-bold"><a href="#toppage" class="foottext">Back to Top</a></h6>
-      </div>
+    
       <div class="col-md-2 mb-3">
         <h6 class="title font-bold"><a href="robots.php" class="foottext">Robots</a></h6>
       </div>
